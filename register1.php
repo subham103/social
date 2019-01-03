@@ -4,7 +4,7 @@ session_start();
 ?>
 
 <?php  
-$con = mysqli_connect("localhost", "root", "Subham8249041078", "social"); //Connection variable
+$con = mysqli_connect("localhost", "root", "", "social"); //Connection variable
 
 if(mysqli_connect_errno()) 
 {
